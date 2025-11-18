@@ -1,15 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240">
-  <rect width="100%" height="100%" fill="#F6EDEA"/>
-  <g transform="translate(40,30)">
-    <rect x="0" y="0" rx="20" ry="20" width="1120" height="180" fill="#fff" opacity="0.85"/>
-    <text x="60" y="80" font-family="serif" font-size="44" fill="#6B4F36">joe redd — cozy dev</text>
-    <text x="60" y="120" font-family="sans-serif" font-size="18" fill="#A3A080">☕ Soft UI • small experiments • slow mornings</text>
-    <!-- simple coffee cup -->
-    <g transform="translate(920,40)">
-      <ellipse cx="40" cy="110" rx="48" ry="10" fill="#D9C8B6" />
-      <rect x="6" y="40" rx="22" ry="22" width="68" height="80" fill="#6B4F36" />
-      <ellipse cx="40" cy="40" rx="28" ry="10" fill="#F6EDEA"/>
-      <path d="M20 32 q10 -8 20 0 q10 8 20 0" stroke="#B7794F" stroke-width="2" fill="none" />
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" shape-rendering="crispEdges">
+
+  <!-- ======== BACKGROUND FLOOR (PIXEL WOOD) ======== -->
+  <defs>
+    <pattern id="wood" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#C8A98A"/>
+      <rect y="8" width="16" height="1" fill="#B7916E"/>
+      <rect y="0" width="16" height="1" fill="#DDC1A4"/>
+    </pattern>
+
+    <!-- Dust particle -->
+    <rect id="dust" width="3" height="3" fill="#E9DCCF"/>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#wood)"/>
+
+  <!-- ======== FLOATING PIXEL DUST ======== -->
+  <g opacity="0.7">
+    <use href="#dust" x="200" y="180">
+      <animate attributeName="y" values="180;170;180" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#dust" x="500" y="110">
+      <animate attributeName="y" values="110;95;110" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#dust" x="900" y="160">
+      <animate attributeName="y" values="160;145;160" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="7s" repeatCount="indefinite"/>
+    </use>
   </g>
+
+  <!-- ======== COFFEE BAR COUNTER ======== -->
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="1200" height="40" fill="#A17450"/>
+    <rect x="0" y="38" width="1200" height="4" fill="#7A5538"/>
+    
+    <!-- Shelves -->
+    <rect x="20" y="10" width="60" height="10" fill="#C28E60"/>
+    <rect x="100" y="10" width="60" height="10" fill="#C28E60"/>
+    <rect x="180" y="10" width="60" height="10" fill="#C28E60"/>
+
+    <!-- Pixel plants on shelf -->
+    <rect x="40" y="5" width="6" height="6" fill="#7DAA6A"/>
+    <rect x="120" y="5" width="6" height="6" fill="#7DAA6A"/>
+    <rect x="200" y="5" width="6" height="6" fill="#7DAA6A"/>
+  </g>
+
+  <!-- ======== TABLES ======== -->
+  <g>
+    <!-- big table -->
+    <rect x="250" y="120" width="140" height="90" fill="#A17450"/>
+    <rect x="250" y="120" width="140" height="10" fill="#B5875E"/>
+    <rect x="250" y="200" width="140" height="10" fill="#8A5F3E"/>
+
+    <!-- small table -->
+    <rect x="600" y="150" width="110" height="70" fill="#A17450"/>
+    <rect x="600" y="150" width="110" height="8" fill="#B5875E"/>
+  </g>
+
+  <!-- ======== PLANTS ======== -->
+  <g>
+    <!-- plant 1 -->
+    <rect x="220" y="210" width="12" height="12" fill="#6FA257"/>
+    <rect x="222" y="208" width="8" height="4" fill="#8BC97A"/>
+
+    <!-- plant 2 -->
+    <rect x="780" y="200" width="12" height="12" fill="#6FA257"/>
+    <rect x="782" y="198" width="8" height="4" fill="#8BC97A"/>
+  </g>
+
+  <!-- ======== COFFEE CUP ON TABLE ======== -->
+  <g transform="translate(650,160)">
+    <!-- cup -->
+    <rect x="10" y="20" width="30" height="20" fill="#6B4F36"/>
+    <rect x="10" y="20" width="30" height="5" fill="#8A6A52"/>
+    <rect x="38" y="25" width="6" height="10" fill="#6B4F36"/>
+
+    <!-- coffee -->
+    <rect x="14" y="23" width="22" height="6" fill="#B7794F"/>
+
+    <!-- steam -->
+    <rect x="20" y="5" width="4" height="4" fill="#E8DCCF">
+      <animate attributeName="y" values="5;0;5" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="28" y="2" width="4" height="4" fill="#E8DCCF">
+      <animate attributeName="y" values="2;-4;2" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ======== MAIN TEXT ======== -->
 </svg>
