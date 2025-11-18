@@ -3,13 +3,13 @@
   <!-- ======== BACKGROUND FLOOR (PIXEL WOOD) ======== -->
   <defs>
     <pattern id="wood" width="16" height="16" patternUnits="userSpaceOnUse">
-      <rect width="16" height="16" fill="#C8A98A"/>
-      <rect y="8" width="16" height="1" fill="#B7916E"/>
-      <rect y="0" width="16" height="1" fill="#DDC1A4"/>
+      <rect width="16" height="16" fill="#966c41"/>
+      <rect y="8" width="16" height="1" fill="#5e3e21"/>
+      <rect y="0" width="16" height="1" fill="#c4a07a"/>
     </pattern>
 
     <!-- Dust particle -->
-    <rect id="dust" width="3" height="3" fill="#E9DCCF"/>
+    <rect id="dust" width="10" height="10" fill="#E9DCCF"/>
   </defs>
 
   <rect width="100%" height="100%" fill="url(#wood)"/>
@@ -19,6 +19,11 @@
     <use href="#dust" x="200" y="180">
       <animate attributeName="y" values="180;170;180" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite"/>
+    </use>
+
+    <use href="#dust" x="100" y="120">
+      <animate attributeName="y" values="50;35;50" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
     </use>
 
     <use href="#dust" x="500" y="110">
@@ -34,26 +39,29 @@
 
   <!-- ======== COFFEE BAR COUNTER ======== -->
   <g transform="translate(0,0)">
-    <rect x="0" y="0" width="1200" height="40" fill="#A17450"/>
-    <rect x="0" y="38" width="1200" height="4" fill="#7A5538"/>
-    
-    <!-- Shelves -->
-    <rect x="20" y="10" width="60" height="10" fill="#C28E60"/>
-    <rect x="100" y="10" width="60" height="10" fill="#C28E60"/>
-    <rect x="180" y="10" width="60" height="10" fill="#C28E60"/>
+    <rect x="0" y="0" width="1200" height="60" fill="#694017"/>
+    <rect x="0" y="50" width="1200" height="4" fill="#7A5538"/>
 
-    <!-- Pixel plants on shelf -->
-    <rect x="40" y="5" width="6" height="6" fill="#7DAA6A"/>
-    <rect x="120" y="5" width="6" height="6" fill="#7DAA6A"/>
-    <rect x="200" y="5" width="6" height="6" fill="#7DAA6A"/>
   </g>
 
   <!-- ======== TABLES ======== -->
   <g>
     <!-- big table -->
-    <rect x="250" y="120" width="140" height="90" fill="#A17450"/>
-    <rect x="250" y="120" width="140" height="10" fill="#B5875E"/>
-    <rect x="250" y="200" width="140" height="10" fill="#8A5F3E"/>
+    <!--base color-->
+    <rect x="250" y="180" width="140" height="40" fill="#A17450"/>
+    <rect x="220" y="170" width="200" height="30" fill="#A17450"/>
+    <rect x="220" y="160" width="200" height="30" fill="#A17450"/>
+    <rect x="250" y="140" width="140" height="40" fill="#A17450"/>
+    <rect x="270" y="130" width="100" height="20" fill="#A17450"/>
+      <!--highlight-->
+    <rect x="250" y="210" width="140" height="10" fill="#c4a07a"/>
+    <rect x="220" y="190" width="30" height="10" fill="#c4a07a"/>
+    <rect x="380" y="200" width="10" height="10" fill="#c4a07a"/>
+    <rect x="380" y="190" width="40" height="10" fill="#c4a07a"/>
+    <rect x="410" y="160" width="10" height="40" fill="#c4a07a"/>
+    <rect x="380" y="140" width="10" height="20" fill="#c4a07a"/>
+    <rect x="360" y="130" width="10" height="10" fill="#c4a07a"/>
+   
 
     <!-- small table -->
     <rect x="600" y="150" width="110" height="70" fill="#A17450"/>
@@ -69,8 +77,20 @@
     <!-- plant 2 -->
     <rect x="780" y="200" width="12" height="12" fill="#6FA257"/>
     <rect x="782" y="198" width="8" height="4" fill="#8BC97A"/>
+    
+    <!-- leaf -->
+  <rect x="0" y="260" width="80" height="200" fill="#6FA257"/>
+  <rect x="0" y="260" width="100" height="20" fill="#6FA257"/>
+  <rect x="20" y="240" width="80" height="20" fill="#6FA257"/>
+  <rect x="40" y="230" width="70" height="10" fill="#6FA257"/>
+  <rect x="50" y="220" width="70" height="10" fill="#6FA257"/>
+  <rect x="110" y="230" width="10" height="10" fill="#405e32"/>
+  <rect x="100" y="240" width="20" height="10" fill="#405e32"/>
+  <rect x="110" y="250" width="10" height="10" fill="#405e32"/>
   </g>
 
+    
+  
   <!-- ======== COFFEE CUP ON TABLE ======== -->
   <g transform="translate(650,160)">
     <!-- cup -->
@@ -92,6 +112,30 @@
       <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
     </rect>
   </g>
+<!-- ======== BIG COFFEE CUP ======== -->
+  <!-- cup -->
+    <rect x="950" y="80" width="150" height="180" fill="#6B4F36"/>
+    <rect x="950" y="80" width="150" height="20" fill="#a17b5f"/>
+    <rect x="978" y="100" width="146" height="140" fill="#6B4F36"/>
+  
+  <!-- coffee -->
+    <rect x="960" y="90" width="130" height="40" fill="#B7794F"/>
+  
+  <!-- steam -->
+    <rect x="980" y="200" width="30" height="50" fill="#E8DCCF">
+      <animate attributeName="y" values="70;50;70" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
 
+    <rect x="1040" y="200" width="30" height="60" fill="#E8DCCF">
+      <animate attributeName="y" values="50;30;50" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  
+  
   <!-- ======== MAIN TEXT ======== -->
+  <text x="40" y="70" font-family="monospace" font-size="64" fill="#C8A98A">
+    Jored — Cozy Coffee Shop
+  </text>
+
 </svg>
