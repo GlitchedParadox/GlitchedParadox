@@ -22,10 +22,5 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&repeat=false&width=435&lines=%E2%80%A7%E2%82%8A%CB%9A%E2%99%AA++Current+playlist+%F0%9D%84%9E%E2%82%8A%CB%9A%E2%8A%B9)](https://git.io/typing-svg)
-- [Quiet Mix playlist](https://open.spotify.com/playlist/37i9dQZF1EIgQnNDX2DOQP?si=fe403edc44d0433d)
-
----
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&repeat=false&width=435&lines=%E2%9C%A7%CB%96%C2%B0%E0%A3%AA+%D6%B4%D6%B6%D6%B8%E2%98%BE.+Contact+%CB%99+%E0%BC%98+%E2%8B%86%EF%BD%A1%CB%9A)](https://git.io/typing-svg)
  - [Github](https://github.com/GlitchedParadox)
