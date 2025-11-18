@@ -1,34 +1,18 @@
 <!-- Banner (replace the image URL with your banner file in the repo) -->
 ![cozy-banner](cozy-banner.svg)
+> “First I drink the coffee. Then I do the things.” — a motto for calm productivity
+> ---
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=B88F58&center=true&width=435&lines=%E2%82%8A%CB%9A.%F0%9F%8E%A7+%E2%9C%A9About+me%EF%BD%A1%E2%98%95+%E2%96%B6%EF%B8%8E+%E2%80%A2%E1%81%8A%E1%81%8A%7C%7C%E1%81%8A%7C%E1%81%8B%7C%7C%7C%7C+%7C)](https://git.io/typing-svg)
 
-# Hi, I'm Joe ☕️
-*Coffee-sipping dev, tinkering with cozy UIs and tiny automations.*  
-_Live coding, slow coffee, moderate chaos._
-
----
-
-<!-- Badges -->
-![GitHub followers](https://img.shields.io/github/followers/YOUR-USERNAME?label=Follow&style=flat-square)
-![Top Langs](https://img.shields.io/badge/top%20lang-JS%20%7C%20Python-6cc644?style=flat-square)
-![Status](https://img.shields.io/badge/status-brewing%20ideas-6B4F36?style=flat-square)
-
----
-
-## ☕ What I'm sipping
-A cozy pour-over and a lo-fi playlist.
-
----
-
-## ✨ About
-- 🔭 Building small, gooey UI prototypes and learning more Rust and React.  
-- 📚 Currently reading: *The Art of Simple Living* and blog posts about design systems.  
+- 🔍 Open-minded, ever willing to learn!  
+- 📚 Current status: Student (Tkps'22, Bgss'27, ❔)
 - 🌱 I like slow mornings, plants, and coffee-shop coding sessions.
 
----
 
-## 🧰 Featured Projects
-- **[Warm-UI](https://github.com/YOUR-USERNAME/warm-ui)** — small React components with soft shadows and comfy paddings.  
-- **[BrewBot](https://github.com/YOUR-USERNAME/brewbot)** — a tiny automation that tweets coffee quotes every morning.
+---
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&width=435&lines=%E2%9C%A9+Featured+projects+(%E1%B4%97%CB%B3%E1%B4%97)%E1%B6%BB%F0%9D%97%93%F0%90%B0%81)](https://git.io/typing-svg)
+- none at the moment
+
 
 ---
 
