@@ -7,6 +7,7 @@
 - 🔍 Open-minded, ever willing to learn!  
 - 📚 Current status: Student (Tkps'22, Bgss'27, ❔)
 - 🌱 I like slow mornings, plants, and coffee-shop coding sessions.
+- CTF player! (24/11/2025)
 
 
 ---
