@@ -17,12 +17,5 @@
 
 
 ---
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&repeat=false&width=435&lines=%E2%80%A7%E2%82%8A%CB%9A+%E2%8B%85+%E2%98%95%EF%B8%8E%E2%8B%85+GitHub+stats++%F0%93%8E%A9+%E2%80%A7%E2%82%8A%CB%9A+)](https://git.io/typing-svg)
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GlitchedParadox&show_icons=true&theme=calm_pink)
-
----
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&repeat=false&width=435&lines=%E2%9C%A7%CB%96%C2%B0%E0%A3%AA+%D6%B4%D6%B6%D6%B8%E2%98%BE.+Contact+%CB%99+%E0%BC%98+%E2%8B%86%EF%BD%A1%CB%9A)](https://git.io/typing-svg)
  - [Github](https://github.com/GlitchedParadox)
