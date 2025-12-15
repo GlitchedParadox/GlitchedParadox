@@ -12,7 +12,7 @@
 
 ---
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=30&duration=2200&pause=4000&color=DAA868EE&center=true&repeat=false&width=435&lines=%E2%9C%A9Featured+projects+(%E1%B4%97%CB%B3%E1%B4%97)%E1%B6%BB%F0%9D%97%93%F0%90%B0%81)](https://git.io/typing-svg)
-- STILL IN CONSTRUCITON
+- [Go-Green](https://github.com/GlitchedParadox/Go-Green)
 - (portfolio website still at work!)
 
 
